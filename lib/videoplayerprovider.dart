@@ -7,6 +7,7 @@ class VideoPlayerProvider extends ChangeNotifier
   VideoPlayerController? videoPlayerController;
   ChewieController? chewieController;
 
+
  void loadvideo()
   {
      videoPlayerController = VideoPlayerController.asset("assets/video/nature.mp4");
