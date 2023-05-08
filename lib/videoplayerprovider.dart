@@ -7,14 +7,20 @@ class VideoPlayerProvider extends ChangeNotifier
   VideoPlayerController? videoPlayerController;
   ChewieController? chewieController;
 
- Future<void> loadvideo()
-   async {
-     videoPlayerController = VideoPlayerController.asset("assets/video/video.mp4");
-     await videoPlayerController!.initialize();
+ void loadvideo()
+  {
+     videoPlayerController = VideoPlayerController.asset("assets/video/nature.mp4");
+     videoPlayerController!.initialize();
 
     chewieController = ChewieController(
         videoPlayerController: videoPlayerController!,
-        autoPlay: true
+        autoPlay: true,
+        looping: true,
+        zoomAndPan: true,
+        useRootNavigator: true,
+        showControls: true,
+        showOptions: true,
+
     );
 
   }

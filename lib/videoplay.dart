@@ -32,17 +32,15 @@ class _VideoPlay_ScreenState extends State<VideoPlay_Screen> {
 
     return SafeArea(
       child: Scaffold(
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Container(
-              height: 40,
-              width: 100,
-              child: Chewie(
-                controller: vppT!.chewieController!,
-              ),
-            )
-          ],
+        backgroundColor: Colors.black,
+        body: Center(
+          child: Container(
+            // height: 400,
+            // width: 300,
+            child: Chewie(
+              controller: vppT!.chewieController!,
+            ),
+          ),
         ),
       ),
     );
