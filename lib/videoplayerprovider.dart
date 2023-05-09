@@ -18,7 +18,9 @@ class VideoPlayerProvider extends ChangeNotifier
      chewieController = ChewieController(
         videoPlayerController: videoPlayerController!,
         allowFullScreen: true,
+        looping: true,
         autoPlay: bgvideo,
+
        // startAt: Duration(seconds: 10),
         //fullScreenByDefault: true,
 
