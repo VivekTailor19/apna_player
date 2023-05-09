@@ -24,7 +24,15 @@ class _VideoPlayHereState extends State<VideoPlayHere> {
     int index = ModalRoute.of(context)!.settings.arguments as int;
     return SafeArea(
       child: Scaffold(backgroundColor: Colors.black,
-        appBar: AppBar(backgroundColor: Colors.black,
+        appBar: AppBar(
+          leading: IconButton(
+            icon: Icon(Icons.arrow_back_sharp),
+            onPressed: (){
+
+              Navigator.pop(context);
+            },
+          ),
+          backgroundColor: Colors.black,
         title: Text("${vppT!.videos[index].name}",style: TextStyle(color: Colors.teal),),),
         body: Chewie(
           controller: vppT!.chewieController!,

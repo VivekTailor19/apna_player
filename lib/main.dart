@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sizer/sizer.dart';
-import 'package:video_play/videolist.dart';
+import 'package:video_play/screen/videolist.dart';
+import 'package:video_play/screen/videoplayhere.dart';
 import 'package:video_play/videoplayerprovider.dart';
-import 'package:video_play/videoplayhere.dart';
 
 void main() {
   runApp(
