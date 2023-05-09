@@ -9,20 +9,17 @@ class VideoPlayerProvider extends ChangeNotifier
   ChewieController? chewieController;
 
 
- void loadvideo()
+ void loadvideo(String? videopath)
   {
-     videoPlayerController = VideoPlayerController.asset("assets/video/nature.mp4");
+     videoPlayerController = VideoPlayerController.asset("$videopath");
      videoPlayerController!.initialize();
 
-    chewieController = ChewieController(
+     chewieController = ChewieController(
         videoPlayerController: videoPlayerController!,
+        allowFullScreen: true,
         autoPlay: true,
-        looping: true,
-        zoomAndPan: true,
-        useRootNavigator: true,
-        showControls: true,
-        showOptions: true,
-
+        startAt: Duration(seconds: 1),
+        fullScreenByDefault: true
     );
 
   }
