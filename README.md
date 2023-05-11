@@ -4,6 +4,12 @@
 ## Simple Video Player using Flutter
 
 <p>
+  
+
+<video>
+  <source = "https://github.com/VivekTailor19/apna_player/assets/119835214/541c9286-d5c6-486f-88a8-5518498cdffd" </video>
+
+
 <br><br>
 <img src = "https://github.com/VivekTailor19/apna_player/assets/119835214/7da912e9-b07f-4a9e-8033-5487194d2672" height="360" width="650" >
 <br><br>
