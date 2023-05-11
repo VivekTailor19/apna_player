@@ -1,16 +1,15 @@
 # video_play
+#apna_player
 
-A new Flutter project.
+## Simple Video Player
 
-## Getting Started
+<p>
+<img src = "" height="" width="" >
+  
+<img src = "https://github.com/VivekTailor19/apna_player/assets/119835214/e3ef685f-632f-40c1-b08a-3a79a2e4ccc1" height="" width="" >
+  ![apna_player (1)](https://github.com/VivekTailor19/apna_player/assets/119835214/7da912e9-b07f-4a9e-8033-5487194d2672)
+<img src = "https://github.com/VivekTailor19/apna_player/assets/119835214/d665b245-bd75-4a27-a264-7d076e062646" height="" width="" >
+<img src = "https://github.com/VivekTailor19/apna_player/assets/119835214/5d9e80fd-1cd1-41cb-a7ca-7dd35b6f1e53" height="" width="" >
+<img src = "https://github.com/VivekTailor19/apna_player/assets/119835214/c1200265-ec6b-459b-b3ab-e924085d4f97" height="" width="" >
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+</p>
