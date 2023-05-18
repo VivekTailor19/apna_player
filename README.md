@@ -11,7 +11,8 @@ https://github.com/VivekTailor19/apna_player/assets/119835214/541c9286-d5c6-486f
 
 <br><br>
 
-<img src = "https://github.com/VivekTailor19/apna_player/assets/119835214/7da912e9-b07f-4a9e-8033-5487194d2672" height="550" width="300" >
+
+<img src = "https://github.com/VivekTailor19/apna_player/assets/119835214/e0c12f70-162c-4cbc-9ec7-b82cda6d7ffc" height="300" width="550" >
 <br><br>
 <img src = "https://github.com/VivekTailor19/apna_player/assets/119835214/e3ef685f-632f-40c1-b08a-3a79a2e4ccc1" width="300" height="550" >
   &emsp; &emsp;
